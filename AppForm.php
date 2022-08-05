@@ -3,7 +3,8 @@
 $array = array("1" => "PHP code tester Sandbox Online",
     "emoji" => "😀 😃 😄 😁 😆", 5 , 5 => 89009,
     "Random number" => rand(100,999),
-    "PHP Version" => phpversion()
+    "PHP Version" => phpversion(),
+    "newline" => "\n",
 );
 
 foreach( $array as $key => $value ){
